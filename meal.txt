@@ -1,0 +1,3 @@
+SELECT (meal.break + meal.lunch +meal.dinner) as total_meal_of_recentday
+FROM meal 
+WHERE id=1

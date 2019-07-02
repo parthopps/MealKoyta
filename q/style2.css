@@ -1,0 +1,167 @@
+{
+	margin:0;
+	padding:0;
+	background:#fff;
+		
+}
+
+#nav-bar
+{
+	position:sticky;
+	top:0;
+	Z-index:10;
+	
+}
+.navbar-brand img
+{
+	height:40px;
+	padding-left:30px;
+}
+.navbar-nav li
+{
+	padding:0 10px;
+	
+}
+.navbar-nav li a
+{
+	float:right;
+	text-align:left;
+	
+}
+#nav-bar ul li a:hover
+{
+	color:#007bff!important;
+}
+.navbar
+{
+	background:#fff;
+}
+
+.navbar-toggler
+{
+	border:none!important;
+}
+
+.nav-link
+{
+	color:#555!important;
+	font-weight:600;
+	font-size:16px;
+}
+/*---------slider---------*/
+
+#slider
+{
+	width:100%;
+	height:50%;
+	
+}
+
+/*---------market&&meal---------*/
+
+
+#market
+{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/pic4.jpg);
+	background-size:cover;
+	background-position:center;
+	color:#efefef !important;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+
+#market h1
+{
+	text-align:center;
+	color:#efefef !important;
+	padding-bottom:10px;
+	
+}
+
+
+#market h1::after
+{
+	content:'';
+	background:#efefef;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+.center 
+{
+	position:absolute;
+	top:45%;
+	left:26%;
+	transform:(-50%,50%);
+	color:	#808000 !important;
+	border-radius:15px;
+
+}
+.center1 
+{
+	position:absolute;
+	top:45%;
+	left:68%;
+	transform:(-50%,50%);
+	color:	#808000 !important;
+	border-radius:15px;
+
+}
+.team
+{
+	margin:75px 0;
+	
+}
+h1
+{
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:2px;
+	color:#333;
+	padding-bottom:10px;
+}
+
+h1:after
+{
+	content:'';
+	background:#333;
+	display:block;
+	height:3px;
+	width:150px;
+	margin:10px auto;
+}
+
+#team
+{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/pic1.jpg);
+	background-size:cover;
+	background-position:center;
+	color:#efefef !important;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+
+#team h1
+{
+	text-align:center;
+	color:#efefef !important;
+	padding-bottom:2px;
+	
+}
+
+
+#team h1::after
+{
+	content:'';
+	background:#efefef;
+	
+	height:3px;
+	width:170px;
+	margin:100px auto 5px;
+}
+

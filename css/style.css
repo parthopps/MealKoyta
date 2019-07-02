@@ -1,0 +1,136 @@
+/* real */
+
+/* Google Fonts Montserrat */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i,700,700i,800,800i" rel="stylesheet');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.button{
+	background:white;
+	padding-top:9px;
+	padding-bottom:20px;
+	padding-left:15px;
+	
+	
+}
+.b1{
+	
+	padding:10px 10px;
+	background:white;
+	color:#31353E;
+	font-size:18px;
+	transition:0.4s ease-in-out;
+	border: 3px solid white;
+    border-radius: 100px;
+	
+	
+}
+.b1:hover{
+	cursor:ponter;
+	background:#DD4C2D;
+}
+
+.map{
+      background: url(../images/map.png) no-repeat center;
+	  background-size: cover;
+	  text-align: center;
+	  position: absolute;
+	  top: 55%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	  width: 100%;
+}
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+.text1{
+  color: #331333;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 31px;
+  background: transparent;
+  position: relative;
+  animation: text 3s 1;
+}
+.text2{
+  font-size: 50px;
+  color:#DD4C2D;
+  padding-bottom:80px;
+}
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -2px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -25px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -2px;
+  }
+}
+textarea{
+	border:3px solid black;
+	border-radius: 13px;
+	background:transparent;
+    padding-bottom:30px;
+
+} 
+.b2{
+	
+	padding:10px 10px;
+	background:#DD4C2D;
+	color:white;
+	font-size:18px;
+	transition:0.4s ease-in-out;
+	border: 3px solid white;
+    border-radius: 100px;
+	
+	
+}
+.b2:hover{
+	cursor:ponter;
+	background:#331333;
+}
+
+
+
+
+
+/* Media Query For Mobile Devices */
+
+@media (min-width: 320px) and (max-width: 500px){
+ 	
+	
+.map{
+	
+
+width: 100%;
+top:80%;
+}
+.text1{
+  color: #331333;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 31px;
+  background: transparent;
+  position: relative;
+  animation: text 3s 1;
+}
+.text2{
+  font-size: 25px;
+  color:#DD4C2D;
+  padding-bottom:80px;
+}
+
+}
+	
+	

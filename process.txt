@@ -1,0 +1,4 @@
+DELETE FROM data
+WHERE id=0 AND name=any( select name
+            from emp
+             WHERE own_phone= 01676772959 AND  manager_phone=01676772959        )
